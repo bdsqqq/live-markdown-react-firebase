@@ -128,7 +128,7 @@ class Home extends Component {
         console.log(this.state.posts)
         return(
             <Wrapper>
-                <h1>Hello world from Home</h1>
+                <h1>Live Markdown</h1>
                 <Form onSubmit={this.onSubmit}>
                     <InputTitle 
                         type="text"
