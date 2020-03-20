@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import Home from './components/Home';
 import Post from './components/Post';
-
-import './App.css';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +14,7 @@ function App() {
           <Route exact path='/post/:postId' component={Post}/>
         </Switch>
       </Router>
+      <Footer/>
     </div>
   );
 }
