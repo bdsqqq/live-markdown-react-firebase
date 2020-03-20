@@ -1,7 +1,10 @@
 {
   "name": "markdown",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bdsqqq/live-markdown-react-firebase.git",
+  "author": "bdsqqq <igorbedesqui@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
