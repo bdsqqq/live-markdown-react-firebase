@@ -27,7 +27,7 @@ function Footer(){
 
     return(
         <FooterWrapper>
-            <span>Feito com <FontAwesomeIcon role="img" aria-label="amor" icon={faHeart}/> por <StyledA href="https://github.com/bdsqqq">igor bedesqui</StyledA>, atribuições podem ser encontradas <StyledA href="https://github.com/bdsqqq/react-wherestheiss">no repositorio </StyledA></span>
+            <span>Feito com <FontAwesomeIcon role="img" aria-label="amor" icon={faHeart}/> por <StyledA href="https://github.com/bdsqqq">igor bedesqui</StyledA>, atribuições podem ser encontradas <StyledA href="https://github.com/bdsqqq/live-markdown-react-firebase">no repositorio </StyledA></span>
         </FooterWrapper>
     );
 }
