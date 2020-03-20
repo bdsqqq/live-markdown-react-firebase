@@ -26,6 +26,7 @@ const Form = styled.form`
     margin: 6rem auto;
     height: 10vh;
     align-items: center;
+    flex-wrap: wrap;
 `
 const InputTitle = styled.input`
     padding: 10px;
@@ -158,6 +159,7 @@ class Home extends Component {
                     />
                     <ButtonCreate type="submit">Create</ButtonCreate>
                 </Form>
+                <h1>Posts anteriores</h1>
                 <CardWrapper>
                     {this.state.posts.map(post => (
                         <StyledLink key={post.key} to={`/post/${post.key}`}>
