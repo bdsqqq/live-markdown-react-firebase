@@ -153,11 +153,11 @@ class Home extends Component {
                     <InputTitle 
                         type="text"
                         name="title"
-                        placeholder="Create a post..."
+                        placeholder="Crie um post..."
                         value={this.state.title}
                         onChange={this.onChange}
                     />
-                    <ButtonCreate type="submit">Create</ButtonCreate>
+                    <ButtonCreate type="submit">Criar!</ButtonCreate>
                 </Form>
                 <h1>Posts anteriores</h1>
                 <CardWrapper>
