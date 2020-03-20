@@ -3,10 +3,23 @@ import db from '../firebase';
 import { Link } from 'react-router-dom';
 import uuid from 'uuid/v4';
 import styled from 'styled-components';
+import Logo from '../icon.svg'
 
 const Wrapper = styled.div`
     margin: 2em;
     color: #f3f3f3;
+`
+const Header = styled.div`
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-end;
+
+    font-size: 2rem;
+    font-weight: 700;
+`
+const LogoImg = styled.img`
+    width: 1.4em;
+    margin-right: .5em;
 `
 const Form = styled.form`
     display: flex;
@@ -128,7 +141,13 @@ class Home extends Component {
         console.log(this.state.posts)
         return(
             <Wrapper>
-                <h1>Live Markdown</h1>
+                <Header>
+                    <LogoImg  src={Logo} alt="Logotipo"/>
+                    <span>  Live Markdown </span>
+                </Header>
+                <div>
+                    Editor colaborativo grátis
+                </div>
                 <Form onSubmit={this.onSubmit}>
                     <InputTitle 
                         type="text"
